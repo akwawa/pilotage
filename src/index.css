@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gantt .bar-wrapper:hover .bar {
+  fill: #2563eb;
+}
+
+.gantt .bar {
+  fill: #3b82f6;
+}
+
+.gantt .bar-label {
+  fill: #1f2937;
+  dominant-baseline: central;
+  text-anchor: start;
+  font-size: 12px;
+}
+
+.gantt .grid-header {
+  fill: #f3f4f6;
+}
+
+.gantt .grid-row {
+  fill: #ffffff;
+}
+
+.gantt .row-line {
+  stroke: #e5e7eb;
+}
+
+.gantt .tick {
+  stroke: #e5e7eb;
+}
+
+.gantt .today-highlight {
+  fill: #93c5fd;
+  opacity: 0.25;
+}
