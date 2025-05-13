@@ -2,6 +2,7 @@ import { useParams } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import { supabase } from '../lib/supabaseClient';
 import { useEffect, useRef } from 'react';
+import 'frappe-gantt/dist/frappe-gantt.css';
 import Gantt from 'frappe-gantt';
 
 interface Task {
